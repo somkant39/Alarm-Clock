@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Here is the Project title -->
+    <title>Alarm Clock</title>
+
+    <!-- Here is the CSS File -->
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    
+    <!-- Here is Main section which covers all 3's Boxes -->
+    <main>
+        
+        <!-- Starts three Boxes here for Clock, Set Alarm & Alarm List -->
+        <div class="boxes">
+            <div class="clock">
+                <div id="time" class="time"></div>
+            </div>
+        </div>
+
+        <!-- Here is the Alarm box -->
+        <div class="boxes">    
+                <div class="alarmBox">
+                    <h2>Set Alarm</h2>
+                    <label for="hour">Hour:</label>
+                    <input type="number" id="hour" min="0" max="12">
+                    <label for="minute">Minute:</label>
+                    <input type="number" id="minute" min="0" max="59">
+                    <label for="second">Second:</label>
+                    <input type="number" id="second" min="0" max="59">
+                    
+                    <!-- This is the Time Meridiem -->
+                    <label for="meridiem">Meridiem:</label>
+                    <select id="meridiem">
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+
+                    <!-- Here is for Alarm Name Box -->
+                    <div class="alarmName">
+                        <label for="alarmName">Alarm Name:</label>
+                        <input type="text" id="alarmName">
+                    </div>
+
+                    <!-- Here is the button to set an Alarm-->
+                    <button id="setAlarm">Set Alarm</button>
+                </div>
+        </div>
+
+        <!-- Here is the Alarm List -->
+        <div class="boxes">
+            <div class="alarm_list">
+                <h2>Alarms</h2>
+                <ul id="alarmList"></ul>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- This is the JavaScript File -->
+    <script src="Script.js"></script>
+
+</body>
+</html>
