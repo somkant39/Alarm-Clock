@@ -5,7 +5,7 @@
         const setAlarmButton = document.getElementById("setAlarm");
         const alarmList = document.getElementById("alarmList");
 
-    // Update clock for each and every second...
+    // Update the clock for every second...
         setInterval(updateClock, 1000);
 
         
