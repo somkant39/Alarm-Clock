@@ -1,0 +1,76 @@
+
+/* To make changes page style */
+html{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(70, 2, 30);
+}
+
+/* To make changes in main section */
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+/* To style in all Boxes */
+.boxes{
+    width: 600px;
+    height: auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: -5px -5px 7px 5px black;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+/* To style in the Clock */
+.clock{
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* To style in the Alarm-Box */
+.alarmBox{
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+/* To style in the Button */
+button{
+    background-color: #0d0c0c;
+    color: whitesmoke;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    border-radius: 50px;
+}
+
+/* To make changes in inout section */
+input[type="number"],
+select{
+    width: 50px;
+    font-size: 0.7rem;
+    margin-block-end: inherit;
+    text-align: center;
+}
+
+/* To make the Alram-List */
+.alarm_list{
+    padding:  10px;
+}
+
+/* To make changes in all inner font style  */
+#meridiem, #hour, #minute, #second, #alarmName{
+    font-family: cursive;
+}
