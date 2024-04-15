@@ -18,7 +18,4 @@ This simple yet efficient alarm clock application is built using HTML, CSS, and 
 ### Contribution:
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit pull requests. Let's make this Alarm-Clock even better together.
 
-### License:
-This project is licensed under the [MIT License](LICENSE), allowing for open-source collaboration and modification.
-
 Thank you for using Alarm-Clock! If you have any questions or suggestions, feel free to reach out. Happy waking up! ⏰✨
